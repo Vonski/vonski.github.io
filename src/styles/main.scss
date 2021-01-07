@@ -1,5 +1,7 @@
 @import "lib/normalize";
-@import "lib/fontawesome";
+@import "lib/fontawesome/fontawesome";
+@import "lib/fontawesome/solid.scss";
+@import "lib/fontawesome/brands.scss";
 @import "lib/devicon";
 
 @import 'base';

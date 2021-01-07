@@ -43,9 +43,25 @@
   h1 {
     font-weight: 400;
   }
+  div {
+    clear: both;
+    padding-bottom: 20px;
+    text-align: justify;
+    .left {
+      float: left;
+      margin: 7px 20px 5px 10px;
+    }
+    .right {
+      float: right;
+      margin: 7px 10px 5px 20px;
+    }
+    .icon {
+      display: block;
+      color: #555;
+      font-size: 100px;
+    }
+  }
 }
 
-.user-details .right-icon i {
-  float: right;
-  font-size: 100;
-}
+
+
