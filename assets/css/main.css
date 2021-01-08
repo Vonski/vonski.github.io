@@ -5884,12 +5884,13 @@ sup, sub {
       color: #4B5664; }
 
 #about {
-  font-size: 120%;
+  font-size: 110%;
   width: 90%;
   margin: 0 auto;
   max-width: 960px; }
   @media only screen and (min-width: 768px) {
     #about {
+      font-size: 125%;
       width: 80%; } }
   #about svg {
     width: 60px !important;
@@ -5919,21 +5920,43 @@ sup, sub {
   text-align: center;
   margin: 5px auto; }
   .user-details h1 {
-    font-weight: 400; }
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 40px; }
+    @media only screen and (min-width: 768px) {
+      .user-details h1 {
+        font-size: 2.5rem;
+        margin-bottom: unset; } }
+  .user-details h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 0px; }
+    @media only screen and (min-width: 768px) {
+      .user-details h3 {
+        font-size: 1.8rem; } }
   .user-details div {
     clear: both;
     padding-bottom: 20px;
     text-align: justify; }
-    .user-details div .left {
-      float: left;
-      margin: 7px 20px 5px 10px; }
-    .user-details div .right {
-      float: right;
-      margin: 7px 10px 5px 20px; }
+    @media only screen and (min-width: 768px) {
+      .user-details div .left {
+        float: left;
+        margin: 20px 50px 10px 0px; } }
+    @media only screen and (min-width: 768px) {
+      .user-details div .right {
+        float: right;
+        margin: 20px 0px 10px 50px; } }
     .user-details div .icon {
       display: block;
-      color: #555;
+      text-align: center;
+      color: #512631;
       font-size: 100px; }
+      @media only screen and (min-width: 768px) {
+        .user-details div .icon {
+          font-size: 130px; } }
+    @media only screen and (min-width: 768px) {
+      .user-details div p {
+        padding-top: 15px; } }
 
 .footer {
   background: #1a222c;
